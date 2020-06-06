@@ -1,0 +1,36 @@
+actions:
+- utter_ask_address
+- utter_ask_address2
+- utter_ask_tracking_id
+entities:
+- address
+- address2
+- tracking_id
+forms:
+- inquire_form
+- pick_up_form
+intents:
+- parcel_inquiry
+- deliver_parcel
+- inform
+- affirm
+- deny
+responses:
+  utter_ask_address:
+  - text: Where should this be delivered ?
+  utter_ask_address2:
+  - text: Where should this be picked up ?
+  utter_ask_tracking_id:
+  - text: What is your parcel tracking id ?
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+slots:
+  address:
+    type: unfeaturized
+  address2:
+    type: unfeaturized
+  requested_slot:
+    type: unfeaturized
+  tracking_id:
+    type: unfeaturized
