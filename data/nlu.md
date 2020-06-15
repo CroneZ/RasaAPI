@@ -24,6 +24,115 @@
 - send package
 - send parcel
 
+## intent:faq/ask_track_shipment
+- How can I track my shipment?
+- How to track my shipment?
+- How do I track my shipment?
+- How to track shipment?
+- How can track shipment?
+
+## intent:faq/ask_tracking_number
+- What is a tracking number?
+- WHat is a tracking ID?
+- Tracking number is for what?
+- Tracking ID if for what?
+- Tracking ID got what use?
+- Tracking number got what use?
+- What can I use tracking number for?
+- What can I use tracking ID for?
+
+## intent:faq/ask_find_tracking_number
+- Where can I find my tracking number?
+- Where can I find my tracking ID?
+- Where to find tracking number?
+- Where to find tracking ID?
+- Where can find tracking number?
+- Where can find tracking ID?
+- Tracking number at where?
+- Tracking ID at where?
+- How to find tracking number?
+- How to find tracking ID?
+
+## intent:faq/ask_tracking_information
+- When will my tracking information appear?
+- When can I see my tracking information?
+- When can I start tracking?
+- When can I track my parcel?
+- When will I be able to track my mail?
+- When will I see my tracking information?
+
+## intent:faq/ask_shipment_unchanged
+- Why is my shipment status unchanged?
+- Why my shipment status no change?
+- Why shipment status no change?
+- My shipment status no change
+- My shipment status still the same
+
+## intent:faq/ask_tracking_number_error
+- Why is my tracking number not working?
+- Why is my tracking ID not working?
+- Why my tracking number cannot use?
+- Why can't I use my tracking number?
+- Why my tracking number got problem?
+
+## intent:faq/ask_who_deliver
+- Who will deliver my shipment?
+- Who is going to deliver my shipment?
+- Who deliver my shipment?
+- Who is the one delivering my shipment?
+
+## intent:faq/ask_shipment_deliver_when
+- When will my shipment be delivered?
+- When my shipment be delivered?
+- When will i have my shipment delivered?
+
+## intent:faq/ask_who_to_contact
+- Who can I contact if I have not received my shipment?
+- Who can I ask if I have not received my shipments
+- Who should i find if i have not received my shipment?
+- I didn't received my shipment
+
+## intent:faq/ask_change_address
+- Can you change my delivery address?
+- Can I change my delivery address?
+- Can change delivery address?
+- How to change delivery address?
+
+## intent:faq/ask_change_day_time
+- Can I change the delivery day?
+- Can I change the delivery time?
+- How to change the delivery day?
+- How to change the delivery time?
+- Can you change my delivery day?
+- Can you change my delivery time?
+
+## intent:faq/ask_shipment_damage
+- My shipment is damaged
+- My shipment content is missing
+- My stuff is missing
+- Missing shipment
+- Content of shipment missing
+
+## intent:faq/shipment_not_delivered
+- My shipment is not delivered
+- I did not get my shipment
+- My shipment did not get delivered
+- I did not receive my shipment
+
+## intent:faq/custom_holding_shipment
+- Why is customs holding my shipment?
+- Why is my shipment stuck at custom
+- Shipment stuck at custom
+
+## intent:faq/ask_duty_tax
+- What are the duties?
+- What are the taxes?
+- What is duty?
+- What is tax?
+- What is duty for?
+- What is tax for?
+
+
 ## intent:inform
 - [KEMUN NO 11 35/132 JALAN RAJA LUMU BUKIT 40470 SHAH ALAM - SELANGOR SHAH ALAM](address)
 - [LOT 1298JALAN BUKIT KEMUNING SECTION 34,40400 SHAH SHAH ALAM](address)
