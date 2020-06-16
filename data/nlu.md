@@ -75,16 +75,16 @@
 - Why can't I use my tracking number?
 - Why my tracking number got problem?
 
+## intent:faq/ask_multiple_track
+- Can I track multiple tracking numbers with a single request?
+- Can I track many tracking numbers with one request?
+- Can I track many tracking numbers at once?
+
 ## intent:faq/ask_who_deliver
 - Who will deliver my shipment?
 - Who is going to deliver my shipment?
 - Who deliver my shipment?
 - Who is the one delivering my shipment?
-
-## intent:faq/ask_shipment_deliver_when
-- When will my shipment be delivered?
-- When my shipment be delivered?
-- When will i have my shipment delivered?
 
 ## intent:faq/ask_who_to_contact
 - Who can I contact if I have not received my shipment?
