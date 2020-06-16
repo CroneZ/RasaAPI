@@ -43,3 +43,7 @@
     - action_deactivate_form
     - form{"name": null}
     - slot{"requested_slot": null}
+
+## Frequently_asked
+* faq
+    - respond_faq

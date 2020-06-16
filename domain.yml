@@ -2,6 +2,7 @@ actions:
 - utter_ask_address
 - utter_ask_address2
 - utter_ask_tracking_id
+- respond_faq
 entities:
 - address
 - address2
@@ -15,6 +16,7 @@ intents:
 - inform
 - affirm
 - deny
+- faq
 responses:
   utter_ask_address:
   - text: Where should this be delivered ?
