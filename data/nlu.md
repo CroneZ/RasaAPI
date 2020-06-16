@@ -98,14 +98,6 @@
 - Can change delivery address?
 - How to change delivery address?
 
-## intent:faq/ask_change_day_time
-- Can I change the delivery day?
-- Can I change the delivery time?
-- How to change the delivery day?
-- How to change the delivery time?
-- Can you change my delivery day?
-- Can you change my delivery time?
-
 ## intent:faq/ask_shipment_damage
 - My shipment is damaged
 - My shipment content is missing
