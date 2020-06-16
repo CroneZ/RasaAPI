@@ -105,13 +105,13 @@
 - Missing shipment
 - Content of shipment missing
 
-## intent:faq/shipment_not_delivered
+## intent:faq/ask_shipment_not_delivered
 - My shipment is not delivered
 - I did not get my shipment
 - My shipment did not get delivered
 - I did not receive my shipment
 
-## intent:faq/custom_holding_shipment
+## intent:faq/ask_custom_holding_shipment
 - Why is customs holding my shipment?
 - Why is my shipment stuck at custom
 - Shipment stuck at custom
