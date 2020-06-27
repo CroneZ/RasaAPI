@@ -11,7 +11,7 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.forms import FormAction
-import request
+import requests
 
 
 
@@ -49,7 +49,9 @@ class InquireForm(FormAction):
         #Need to get ETA , compute it using the map API
         #Run JSON get request and parse the response
         trackingID = tracker.get_slot("tracking_id")
-        response = "Your trackingID is "+trackingID
+        data = {"rowID":trackingID}
+        r = requests.get("https://supple-folder-256709.appspot.com/getEta",data)
+        response = "Your ETA is "+ r.text
         dispatcher.utter_message(response)
         return[]
         

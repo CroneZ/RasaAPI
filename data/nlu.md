@@ -212,17 +212,11 @@
 - [NO 15 JALAN ANGGERIK MOKARA 31/56 KOTA KEMUNING BANDAR SHAH ALAM KOTA KEMUNING](address2)
 - [NO.46 JALAN ANGGERIK MOKARA 31/47 KOTA KEMUNING 40 SELANGOR SHAH ALAM](address2)
 - [NO 17, JLN ANGGERIK MOKARA 31/47 SECTION 31. KOTA KEMUNING 40 SELANGOR KOTA KEMUNING](address2)
-- [JJD0116753434](tracking_id)
-- [JJD0116751381](tracking_id)
-- [JJD1446193421](tracking_id)
-- [JJD1234791347](tracking_id)
-- [JJD8052842341](tracking_id)
-- [JJD0484057123](tracking_id)
-- [JJD1043712037](tracking_id)
-- [JJD0924570923](tracking_id)
+- My tracking number is [1](tracking_id)
+- [12](tracking_id)
+- My tracking ID is [123](tracking_id)
 - [NO 20, JALAN 20C/146 , DESA TASIK](address)
 - [NO 48,JALAN MH4/2, AYER KEROH](address2)
-- [JJD0116767890](tracking_id)
 
 ## intent:parcel_inquiry
 - When is my parcel coming?
