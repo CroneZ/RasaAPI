@@ -3,7 +3,7 @@
 language: en
 pipeline:
   - name: WhitespaceTokenizer
-      case-sensitive:False
+  case-sensitive: False
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
