@@ -48,7 +48,7 @@ class InquireForm(FormAction):
     ) -> List[Dict]:
         #Need to get ETA , compute it using the map API
         #Run JSON get request and parse the response
-        trackingID = {tracking_id}
+        trackingID = tracker.get_slot("tracking_id")
         response = "Your trackingID is "+trackingID
         dispatcher.utter_message(response)
         return[]
