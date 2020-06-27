@@ -11,6 +11,7 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.forms import FormAction
+import request
 
 
 
@@ -24,16 +25,14 @@ class PickUpForm(FormAction):
             "address",
             "address2",
                ]
-    def submit(
-        self,
-        dispatcher:CollectingDispatcher,
+    def submit(self, dispatcher:CollectingDispatcher,
         tracker:Tracker,
-        domain:Dict[Text,Any],
+        domain:Dict[Text,Any]  
     )->List[Dict]:
         dispatcher.utter_message("Thank you for your information, we will inform of the pick up soon!")
         return[]
     
-class InquireForm(FormAction):
+class InquireForm(FormAction):  
     def name(self):
         return "inquire_form"
     @staticmethod
@@ -48,6 +47,9 @@ class InquireForm(FormAction):
         domain:Dict[Text,Any],
     ) -> List[Dict]:
         #Need to get ETA , compute it using the map API
-        dispatcher.utter_message("Your Package in currently being delivered. It is to be delivered at ETA 2.00pm today")
+        #Run JSON get request and parse the response
+        trackingID = {tracking_id}
+        response = "Your trackingID is "+trackingID
+        dispatcher.utter_message(response)
         return[]
         
