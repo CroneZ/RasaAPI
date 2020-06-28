@@ -35,7 +35,7 @@ class ChangeTimeForm(FormAction):
             response = "Sorry we are unable to meet your schedule. The parcel will be delivered tomorrow."
             
         dispatcher.utter_message(response)
-        return [SlotSet("tracking_id",None)]
+        return [SlotSet("tracking_id",None),SlotSet("startTime",None),SlotSet("endTime",None)]
     
 
 class InquireForm(FormAction):  
