@@ -26,7 +26,7 @@ class ChangeTimeForm(FormAction):
         endTime=tracker.get_slot("endTime")
         data={"rowID":trackingID,"start":startTime,"end":endTime}
         r = requests.get("https://supple-folder-256709.appspot.com/changeTime",data)
-        list = r.split(',')
+        list = r.text.split(',')
         if(list[0]=='possible'):
             dataD = {"rowID":trackingID}
             d = requests.get("https://supple-folder-256709.appspot.com/confirmChangeTime",dataD)
