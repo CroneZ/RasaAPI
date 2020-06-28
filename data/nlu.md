@@ -1,3 +1,54 @@
+## intent:change_time
+- Can I change time for my parcel delivery?
+- I need to change time for my parcel
+- I am not free to receive my parcel
+- I am not free today
+- I can only receive my parcel between [12:00:00](startTime) til [16:17:00](endTime)
+- I can only receive my parcel between [11:00:00](startTime) til [17:00:00](endTime)
+- I can only receive my parcel between [9:00:00](startTime) til [9:30:00](endTime)
+- I can only receive my parcel between [5:45:00](startTime) til [10:00:00](endTime)
+- I need to change the time for tracking ID [1](tracking_id).
+- I need a different time for tracking ID [56](tracking_id).
+- I need to change time for parcel [5](tracking_id).
+
+## intent:tracking_id_entry
+- My tracking number is [1](tracking_id)
+- [12](tracking_id)
+- My tracking ID is [123](tracking_id)
+- Tracking ID is [3](tracking_id)
+- The id is [20](tracking_id)
+- The tracking id is [10](tracking_id)
+- My tracking number is [123](tracking_id)
+- Tracking number is [3](tracking_id)
+- The number is [20](tracking_id)
+- The tracking number is [10](tracking_id)
+- Check for tracking id [11](tracking_id)
+
+## intent:startTime_entry
+- I am only free starting at [4:00:00](startTime)
+- I am only free starting at [10:30:00](startTime)
+- I am only free starting at [7:45:00](startTime)
+- Please make it after [5:30:00](startTime)
+- Please make it after [19:11:00](startTime)
+- Please make it after [15:20:00](startTime)
+- After [6:00:00](startTime)
+- After [21:15:00](startTime)
+- After [12:45:00](startTime)
+
+## intent:endTime_entry
+- I am not free after [9:00:00](endTime)
+- I am not free after [1:40:00](endTime)
+- I am not free after [6:20:00](endTime)
+- I am not free after [8:10:00](endTime)
+- Before [16:00:00](endTime)
+- Before [8:30:00](endTime)
+- Before [4:10:00](endTime)
+- Please make it before [11:00:00](endTime)
+- Please make it before [9:50:00](endTime)
+- Please make it before [18:05:00](endTime)
+
+
+
 ## intent:deliver_parcel
 - I'd like to deliver a parcel
 - I need to deliver something
@@ -125,13 +176,10 @@
 - What is tax for?
 
 
-## intent:inform
-- My tracking number is [1](tracking_id)
-- [12](tracking_id)
-- My tracking ID is [123](tracking_id)
-
-
 ## intent:parcel_inquiry
+- I want to know the eta of [1](tracking_id)
+- Show me the eta of [12](tracking_id)
+- I need to know when is parcel with tracking id [11](tracking_id) coming?
 - When is my parcel coming?
 - When is my package coming?
 - When is my mail coming?
