@@ -1,36 +1,44 @@
 actions:
-- utter_ask_address
-- utter_ask_address2
 - utter_ask_tracking_id
+- utter_ask_startTime
+- utter_ask_endTime
+- utter_redirect
+- respond_faq
 entities:
-- address
-- address2
 - tracking_id
+- startTime
+- endTime
 forms:
 - inquire_form
-- pick_up_form
+- changeTime_form
 intents:
 - parcel_inquiry
 - deliver_parcel
-- inform
+- change_time
+- tracking_id_entry
+- startTime_entry
+- endTime_entry
 - affirm
 - deny
+- faq
 responses:
-  utter_ask_address:
-  - text: Where should this be delivered ?
-  utter_ask_address2:
-  - text: Where should this be picked up ?
   utter_ask_tracking_id:
   - text: What is your parcel tracking id ?
+  utter_ask_startTime:
+  - text: Starting from what time are you free?
+  utter_ask_endTime:
+  - text: From what time onwards are you not free?
+  utter_redirect:
+  - text: Redirecting you to forms . . .
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
 slots:
-  address:
-    type: unfeaturized
-  address2:
-    type: unfeaturized
   requested_slot:
     type: unfeaturized
   tracking_id:
+    type: unfeaturized
+  startTime:
+    type: unfeaturized
+  endTime:
     type: unfeaturized
